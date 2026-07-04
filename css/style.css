@@ -152,6 +152,7 @@ a { color: inherit; text-decoration: none; }
 
 .nav-toggle {
   display: none;
+  flex-shrink: 0;
   width: 40px; height: 40px;
   align-items: center; justify-content: center;
   color: var(--color-text);
@@ -601,8 +602,13 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 980px) {
-  .main-nav ul, .header-actions .btn-ghost { display: none; }
+  .main-nav { display: none; }
+  .header-actions .btn { display: none; }
+  .theme-toggle { flex-shrink: 0; }
   .nav-toggle { display: inline-flex; }
+  .header-inner { gap: var(--space-3); }
+  .logo-text small { display: none; }
+  .logo span.logo-text { font-size: var(--text-base); }
   .trust-bar-grid { grid-template-columns: repeat(2, 1fr); }
   .hero-grid, .philosophy, .detail-grid, .booking-inner, .contact-grid { grid-template-columns: 1fr; }
   .philosophy-visual { order: -1; }
@@ -636,6 +642,6 @@ a { color: inherit; text-decoration: none; }
 }
 .mobile-nav.open { display: flex; }
 .mobile-nav-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-10); }
-.mobile-nav ul { display: flex; flex-direction: column; gap: var(--space-2); }
+.mobile-nav ul { display: flex; flex-direction: column; gap: var(--space-2); list-style: none; }
 .mobile-nav a { font-family: var(--font-display); font-size: var(--text-lg); padding-block: var(--space-3); display: block; border-bottom: 1px solid var(--color-divider); }
 .mobile-nav-ctas { margin-top: auto; display: flex; flex-direction: column; gap: var(--space-4); }
