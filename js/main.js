@@ -2,7 +2,7 @@
 (function () {
   const t = document.querySelector('[data-theme-toggle]'),
     r = document.documentElement;
-  let d = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+  let d = 'light'; // Always start in light mode regardless of system preference
   r.setAttribute('data-theme', d);
   if (t) {
     t.addEventListener('click', () => {
