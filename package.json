@@ -1,0 +1,8 @@
+{
+  "name": "tietz-physiotherapie",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve . -l ${PORT:-3000} --no-clipboard"
+  }
+}
