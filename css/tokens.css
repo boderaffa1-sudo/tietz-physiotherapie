@@ -46,6 +46,10 @@
   --font-body: 'Work Sans', 'Segoe UI', sans-serif;
 }
 
+:root {
+  color-scheme: light only;
+}
+
 :root,
 [data-theme='light'] {
   /* Surfaces — warm sand */
