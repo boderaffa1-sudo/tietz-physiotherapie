@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Praxis Tietz — Physiotherapie &amp; Osteopathie in Berlin-Halensee</title>
+<meta name="description" content="Ganzheitliche Physiotherapie und Osteopathie in Berlin-Charlottenburg/Halensee. Krankengymnastik, Manuelle Therapie, Osteopathie, Cranio-Sakrale Therapie, TRE und mehr — persönlich, ruhig, mit Zeit für Sie." />
+<meta name="theme-color" content="#f6f1e9" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Praxis Tietz — Physiotherapie &amp; Osteopathie Berlin-Halensee" />
+<meta property="og:description" content="Ganzheitliche Physiotherapie und Osteopathie in Berlin-Charlottenburg. Persönlich, ruhig, mit Zeit für Sie." />
+<meta property="og:image" content="/img/hero-treatment.png" />
+<meta property="og:locale" content="de_DE" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml" />
+
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/style.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Praxis Tietz — Physiotherapie & Osteopathie",
+  "image": "https://praxis-tietz.vercel.app/img/hero-treatment.png",
+  "medicalSpecialty": ["Physiotherapy", "Osteopathic"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Lützenstraße 13",
+    "addressLocality": "Berlin",
+    "postalCode": "10711",
+    "addressCountry": "DE"
+  },
+  "telephone": "+4930892 90 27",
+  "email": "TeamTietz@mailbox.org",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "08:00", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "09:00", "closes": "17:00" }
+  ],
+  "founder": { "@type": "Person", "name": "Josch Tietz", "jobTitle": "Physiotherapeut & Heilpraktiker" }
+}
+</script>
+</head>
+<body>
+
+<!-- Logo SVG sprite (reused) -->
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="logo-mark" viewBox="0 0 48 48">
+    <path d="M24 4C15 10 7 14 7 24c0 9.4 7.6 17 17 17s17-7.6 17-17c0-10-8-14-17-20Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <path d="M14 25c2-4 4-4 6 0s4 4 6 0 4-4 6 0 4 4 6 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <svg aria-hidden="true"><use href="#logo-mark"/></svg>
+      <span class="logo-text">Praxis Tietz<small>Physiotherapie &amp; Osteopathie</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="leistungen.html">Leistungen</a></li>
+        <li><a href="ueber-uns.html">Über uns</a></li>
+        <li><a href="index.html#ablauf">Ablauf</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Dunkelmodus umschalten">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="tel:+4930892902 7" class="btn btn-ghost">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        030 892 90 27
+      </a>
+      <a href="kontakt.html#termin" class="btn btn-primary">Termin anfragen</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <div class="mobile-nav-header">
+    <a href="index.html" class="logo"><svg aria-hidden="true"><use href="#logo-mark"/></svg><span class="logo-text">Praxis Tietz</span></a>
+    <button id="navClose" aria-label="Menü schließen" style="width:40px;height:40px;color:var(--color-text)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <ul>
+    <li><a href="leistungen.html">Leistungen</a></li>
+    <li><a href="ueber-uns.html">Über uns</a></li>
+    <li><a href="index.html#ablauf">Ablauf</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+  </ul>
+  <div class="mobile-nav-ctas">
+    <a href="tel:+4930892902 7" class="btn btn-ghost btn-lg">030 892 90 27 anrufen</a>
+    <a href="kontakt.html#termin" class="btn btn-primary btn-lg">Termin anfragen</a>
+  </div>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div data-reveal>
+        <p class="eyebrow hero-eyebrow">Berlin-Halensee · seit 2015</p>
+        <h1>Zeit für Ihren Körper, <em>Raum</em> für Ihre Geschichte.</h1>
+        <p class="hero-sub">Physiotherapie und Osteopathie mit einem ganzheitlichen Blick — fachlich fundiert, menschlich zugewandt, ohne Hektik. Wir behandeln nicht nur das Symptom, sondern hören zu.</p>
+        <div class="hero-ctas">
+          <a href="kontakt.html#termin" class="btn btn-primary btn-lg">
+            Termin anfragen
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="leistungen.html" class="btn btn-ghost btn-lg">Leistungen ansehen</a>
+        </div>
+        <ul class="hero-trust">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Kassenzulassung &amp; Privat</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Seit 2015 in Halensee</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Individuelle Behandlungszeit</li>
+        </ul>
+      </div>
+      <div class="hero-visual" data-reveal>
+        <img src="img/hero-treatment.png" alt="Sanfte manuelle Behandlung der Schulter in warmer, ruhiger Praxisatmosphäre" width="900" height="1125" />
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21C7 17 3 13.5 3 9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 4.5-4 8-9 12z"/></svg>
+          <div><strong>Josch Tietz</strong><span>Physiotherapeut &amp; Heilpraktiker</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div class="trust-bar">
+    <div class="container trust-bar-grid">
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        <div><strong>Mo–Do 8–19 Uhr</strong><span>Fr 9–17 Uhr, nach Vereinbarung</span></div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <div><strong>Lützenstraße 13</strong><span>10711 Berlin · S Halensee</span></div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        <div><strong>11 Behandlungsformen</strong><span>Von Krankengymnastik bis TRE</span></div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        <div><strong>Persönliche Betreuung</strong><span>Behandlung individuell abgestimmt</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHILOSOPHY -->
+  <section class="container philosophy">
+    <div class="philosophy-visual" data-reveal>
+      <img src="img/practice-room.png" alt="Ruhiger Behandlungsraum mit warmem Licht und natürlichen Materialien" width="800" height="1000" />
+    </div>
+    <div class="philosophy-content" data-reveal>
+      <p class="eyebrow">Unsere Haltung</p>
+      <h2 class="section-title">Gute Therapie braucht Fachwissen — und Menschlichkeit</h2>
+      <p>Wir verstehen uns als Team, gemeinsam mit Ihnen. Jede Behandlung beginnt mit einem echten Gespräch: Was beschäftigt Sie, wo drückt es, was brauchen Sie gerade. Erst danach wählen wir gemeinsam die passende Methode.</p>
+      <blockquote>„Bewegung ist Leben — der Körper ist dann gesund, wenn sich alle Strukturen frei bewegen können.“</blockquote>
+      <p>Jede Therapeutin und jeder Therapeut bringt eigene Schwerpunkte mit — von klassischer Krankengymnastik bis zu Osteopathie und Trauma-sensibler Körperarbeit. So entsteht ein Team mit vielfältigen Erfahrungen für Ihre individuelle Situation.</p>
+      <a href="ueber-uns.html" class="btn btn-ghost" style="margin-top: var(--space-4)">Mehr über die Praxis</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="container" id="leistungen">
+    <div class="section-head center">
+      <p class="eyebrow" style="justify-content:center">Leistungen</p>
+      <h2 class="section-title" style="margin-inline:auto">Behandlungen, die zu Ihnen passen</h2>
+      <p class="section-lead">Von klassischer Krankengymnastik bis zu sanfter Körperarbeit — jede Methode hat ihren eigenen Zugang zum Körper. Wir finden gemeinsam mit Ihnen die richtige.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card featured" data-reveal>
+        <div class="service-media"><img src="img/balance-stones.png" alt="Balancierte Steine als Symbol für osteopathisches Gleichgewicht" /></div>
+        <div class="service-body">
+          <span class="service-tag self-pay">Selbstzahlerleistung</span>
+          <h3 style="margin-top:var(--space-3)">Osteopathie</h3>
+          <p>Ein ganzheitliches Verfahren, das Bewegungseinschränkungen im Gewebe löst, damit der Körper wieder in sein natürliches Gleichgewicht findet. Sanfte bis feste Techniken, individuell auf Sie abgestimmt.</p>
+          <a href="leistungen/osteopathie.html" class="service-tag" style="margin-top:var(--space-3);background:transparent;border:1px solid var(--color-border);color:var(--color-text)">Mehr erfahren →</a>
+        </div>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6.5 6.5 17.5 17.5"/><circle cx="5" cy="5" r="2.5"/><circle cx="19" cy="19" r="2.5"/></svg></div>
+        <span class="service-tag">Kassenleistung</span>
+        <h3>Krankengymnastik</h3>
+        <p>Ärztlich verordnete Bewegungstherapie zur Behandlung, Rehabilitation und Vorbeugung — bei orthopädischen, neurologischen und inneren Beschwerden.</p>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-6.14-2.9l-3.71-5a2 2 0 0 1 3.22-2.36L8 14"/></svg></div>
+        <span class="service-tag">Kassenleistung</span>
+        <h3>Manuelle Therapie</h3>
+        <p>Gezielte Handgriffe zur Behandlung von Funktionsstörungen an Gelenken, Muskeln und Nerven. Schmerzlinderung durch Mobilisation, ergänzt durch Beratung.</p>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <span class="service-tag self-pay">Selbstzahlerleistung</span>
+        <h3>Cranio-Sakrale Therapie</h3>
+        <p>Eine besonders sanfte manuelle Methode, die über den feinen craniosakralen Rhythmus Spannungen löst und Selbstheilung anregt — auch als Ausgleich bei Erschöpfung.</p>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v20M2 12h20"/><path d="M12 2c3 3 3 7 0 10s-3 7 0 10"/></svg></div>
+        <span class="service-tag self-pay">Selbstzahlerleistung</span>
+        <h3>TRE — Trauma-Lösungsübungen</h3>
+        <p>Übungen nach David Berceli, die helfen, alte Verspannungen und Stress über den körpereigenen Schüttelmechanismus sanft zu lösen. Die Intensität bestimmen Sie selbst.</p>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/></svg></div>
+        <span class="service-tag self-pay">Selbstzahlerleistung</span>
+        <h3>PhysioSoul-Körperarbeit</h3>
+        <p>Verbindet körperliche, geistige und seelische Anteile im Gespräch und in der Körperarbeit — für mehr Bewusstheit und Lebensqualität.</p>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12h4l3-9 4 18 3-9h2"/></svg></div>
+        <span class="service-tag self-pay">Selbstzahlerleistung</span>
+        <h3>Kiefergelenksbehandlung</h3>
+        <p>Bei Verspannungen im Kiefer, die Kopf- und Nackenschmerzen auslösen können — sanfte Behandlung, oft ergänzt durch Osteopathie oder Cranio-Sakrale Therapie.</p>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12c2-4 4-6 9-6s7 2 9 6c-2 4-4 6-9 6s-7-2-9-6z"/><circle cx="12" cy="12" r="2"/></svg></div>
+        <span class="service-tag">Kassenleistung</span>
+        <h3>Kinesio-Taping</h3>
+        <p>Medikamentenfreie Unterstützung der Muskel- und Lymphfunktion durch spezielle Tape-Techniken — bei akuten wie chronischen Beschwerden.</p>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M11 2a2 2 0 0 0-2 2v1.1a7 7 0 0 0-2.3 1L5.8 5.4a2 2 0 0 0-2.8 2.8l.7 1a7 7 0 0 0-1 2.3H1.6a2 2 0 0 0 0 4h1.1a7 7 0 0 0 1 2.3l-.7 1a2 2 0 0 0 2.8 2.8l1-.7a7 7 0 0 0 2.3 1V22a2 2 0 0 0 4 0v-1.1a7 7 0 0 0 2.3-1l1 .7a2 2 0 0 0 2.8-2.8l-.7-1a7 7 0 0 0 1-2.3H22a2 2 0 0 0 0-4h-1.1a7 7 0 0 0-1-2.3l.7-1a2 2 0 0 0-2.8-2.8l-1 .7a7 7 0 0 0-2.3-1V4a2 2 0 0 0-2-2z"/></svg></div>
+        <span class="service-tag">Kassenleistung</span>
+        <h3>Massagen</h3>
+        <p>Klassische Massage, Bindegewebsmassage und weitere Techniken zur Lösung von Verspannungen und zur Unterstützung des Bewegungsapparates.</p>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2c3 4 6 7.5 6 11a6 6 0 1 1-12 0c0-3.5 3-7 6-11z"/></svg></div>
+        <span class="service-tag">Kassenleistung</span>
+        <h3>Lymphdrainage</h3>
+        <p>Sanfte manuelle Technik zur Entstauung des Gewebes — besonders nach Verletzungen, Operationen oder bei Venenleiden.</p>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 13a4 4 0 0 1 4-4h1a4 4 0 0 1 4 4v6H4z"/><path d="M13 19h7v-3a4 4 0 0 0-4-4"/></svg></div>
+        <span class="service-tag">Kassenleistung</span>
+        <h3>Fango-Packungen</h3>
+        <p>Feuchte Wärmeanwendung aus Naturmoor — fördert die Durchblutung, senkt den Muskeltonus und bereitet ideal auf weitere Therapie vor.</p>
+      </div>
+
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <span class="service-tag self-pay">Kurse &amp; Gruppen</span>
+        <h3>Qi Gong &amp; Gruppenkurse</h3>
+        <p>Qi Gong donnerstagabends und freitagvormittags sowie TRE/NaSTRE-Übungsabende und Wochenendkurse für alle, die achtsamer mit ihrem Körper umgehen möchten.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGE BREAK -->
+  <div class="image-break" data-reveal>
+    <img src="img/hands-care.png" alt="Zwei Hände, die sich behutsam halten — Symbol für Vertrauen in der Behandlung" />
+  </div>
+
+  <!-- PROCESS -->
+  <section class="container" id="ablauf">
+    <div class="section-head center">
+      <p class="eyebrow" style="justify-content:center">So einfach geht's</p>
+      <h2 class="section-title" style="margin-inline:auto">Der Weg zu Ihrem Termin</h2>
+    </div>
+    <div class="process-grid">
+      <div class="process-step" data-reveal>
+        <h3>Kontakt aufnehmen</h3>
+        <p>Rufen Sie an, schreiben Sie uns oder nutzen Sie die Online-Terminanfrage. Wir melden uns in der Regel innerhalb eines Werktages zurück.</p>
+      </div>
+      <div class="process-step" data-reveal>
+        <h3>Rezept einreichen</h3>
+        <p>Haben Sie eine Heilmittelverordnung? Laden Sie sie einfach als Foto hoch — Sie müssen das Original erst zum ersten Termin mitbringen.</p>
+      </div>
+      <div class="process-step" data-reveal>
+        <h3>Erstgespräch &amp; Behandlung</h3>
+        <p>Im persönlichen Gespräch klären wir Ihre Beschwerden und Ziele und wählen gemeinsam die passende Methode für Ihre Situation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="container">
+    <div class="booking">
+      <div class="booking-inner">
+        <div data-reveal>
+          <p class="eyebrow">Terminbuchung</p>
+          <h2 class="section-title">Bald direkt online buchen</h2>
+          <p class="section-lead" style="margin-bottom:var(--space-6)">Wir bauen gerade eine unkomplizierte Online-Terminbuchung auf — mit direkter Auswahl der passenden Behandlung und automatischer Erinnerung, damit kein Termin mehr verloren geht. Bis dahin erreichen Sie uns telefonisch oder per Formular.</p>
+          <div class="rx-upload">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            <strong>Rezept schon vorab hochladen</strong>
+            <p>Fotografieren Sie Ihre Heilmittelverordnung und senden Sie sie uns vor dem ersten Termin — das spart Zeit am Empfang. Das Original bringen Sie einfach mit.</p>
+            <a href="kontakt.html#termin" class="btn btn-ghost" style="margin-top:var(--space-5)">Rezept-Upload öffnen</a>
+          </div>
+        </div>
+        <div class="booking-card" data-reveal aria-label="Beispielhafte Terminübersicht">
+          <div class="booking-card-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <strong>Verfügbare Termine (Beispiel)</strong>
+          </div>
+          <div class="booking-slots">
+            <p class="booking-day">Montag, 6. Juli</p>
+            <div class="booking-slot"><span class="time">09:30 Uhr</span><span class="type">Krankengymnastik</span></div>
+            <div class="booking-slot"><span class="time">14:15 Uhr</span><span class="type">Osteopathie</span></div>
+            <p class="booking-day">Dienstag, 7. Juli</p>
+            <div class="booking-slot"><span class="time">11:00 Uhr</span><span class="type">Manuelle Therapie</span></div>
+            <div class="booking-slot"><span class="time">16:30 Uhr</span><span class="type">Cranio-Sakral</span></div>
+          </div>
+          <p class="booking-note">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            Ansicht zur Veranschaulichung — die echte Buchungsfunktion folgt in Kürze.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="container quote-banner">
+    <blockquote data-reveal>„Lassen Sie sich durch Ihren Körper zu innerer Gelassenheit und lebendiger Aktivität führen.“</blockquote>
+    <cite>— aus unserem Praxisverständnis</cite>
+  </section>
+
+  <!-- IMAGE BREAK 2 -->
+  <div class="image-break" data-reveal>
+    <img src="img/consultation.png" alt="Ruhiges Beratungsgespräch in warmer, heller Praxisatmosphäre" />
+  </div>
+
+  <!-- FAQ -->
+  <section class="container" id="faq">
+    <div class="section-head center">
+      <p class="eyebrow" style="justify-content:center">Häufige Fragen</p>
+      <h2 class="section-title" style="margin-inline:auto">Gut zu wissen</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary class="faq-question">Brauche ich ein Rezept für einen Termin?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></summary>
+        <p class="faq-answer">Für Krankengymnastik, Manuelle Therapie, Massagen, Kinesio-Taping, Fango und Lymphdrainage benötigen Sie eine ärztliche Heilmittelverordnung. Osteopathie, Cranio-Sakrale Therapie, TRE, PhysioSoul-Körperarbeit und die Kiefergelenksbehandlung sind Selbstzahlerleistungen ohne Rezeptpflicht.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">Wie reiche ich mein Rezept ein?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></summary>
+        <p class="faq-answer">Am einfachsten fotografieren Sie Ihre Verordnung und laden sie über unser Kontaktformular hoch, sobald Sie einen Termin vereinbart haben. Das Original bringen Sie dann einfach zum ersten Termin mit.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">Übernimmt meine Krankenkasse die Kosten?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></summary>
+        <p class="faq-answer">Krankengymnastik, Manuelle Therapie, Massagen, Kinesio-Taping und Lymphdrainage werden bei entsprechender ärztlicher Verordnung von gesetzlichen Krankenkassen übernommen, abzüglich der gesetzlichen Zuzahlung. Osteopathie und weitere ganzheitliche Verfahren sind Selbstzahlerleistungen — sprechen Sie uns gern zu den Kosten an.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">Wie lange dauert eine Behandlung?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></summary>
+        <p class="faq-answer">Je nach Methode zwischen 20 und 60 Minuten. Wir nehmen uns die Zeit, die Ihre Situation braucht — Hektik gehört bei uns nicht zur Behandlung.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">Wie komme ich zur Praxis?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></summary>
+        <p class="faq-answer">Wir befinden uns in der Lützenstraße 13, 10711 Berlin — direkt erreichbar mit der S-Bahn (S Halensee) sowie den Buslinien M19, M29 und X10.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="container">
+    <div class="booking" style="text-align:center; padding: clamp(var(--space-12), 6vw, var(--space-20)) var(--space-8)">
+      <p class="eyebrow" style="justify-content:center">Bereit für den ersten Schritt?</p>
+      <h2 class="section-title" style="margin-inline:auto">Wir nehmen uns gerne Zeit für Sie</h2>
+      <p class="section-lead" style="margin-inline:auto; margin-bottom:var(--space-8)">Melden Sie sich telefonisch oder über unser Kontaktformular — wir antworten in der Regel innerhalb eines Werktages.</p>
+      <div class="hero-ctas" style="justify-content:center">
+        <a href="kontakt.html#termin" class="btn btn-primary btn-lg">Termin anfragen</a>
+        <a href="tel:+4930892902 7" class="btn btn-ghost btn-lg">030 892 90 27 anrufen</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><svg aria-hidden="true"><use href="#logo-mark"/></svg><span class="logo-text">Praxis Tietz</span></a>
+        <p>Physiotherapie &amp; Osteopathie in Berlin-Halensee. Ganzheitlich, persönlich, mit Zeit für Sie.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Praxis</h4>
+        <ul>
+          <li><a href="leistungen.html">Leistungen</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="index.html#ablauf">Ablauf</a></li>
+          <li><a href="index.html#faq">Häufige Fragen</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:+4930892902 7">030 892 90 27</a></li>
+          <li><a href="mailto:TeamTietz@mailbox.org">TeamTietz@mailbox.org</a></li>
+          <li><span>Lützenstraße 13, 10711 Berlin</span></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Öffnungszeiten</h4>
+        <ul>
+          <li><span>Mo–Do: 8–19 Uhr</span></li>
+          <li><span>Fr: 9–17 Uhr</span></li>
+          <li><span>sowie nach Vereinbarung</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Praxis Tietz — Josch Tietz, Physiotherapeut &amp; Heilpraktiker</span>
+      <ul>
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
